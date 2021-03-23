@@ -10,7 +10,8 @@
 
 # Icon must end with two \r
 Icon
-
+image/
+result/
 **/image
 **/result
 
