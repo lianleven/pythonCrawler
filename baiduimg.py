@@ -14,7 +14,7 @@ def generateImagename():
     print(stamp)
     return stamp + '.jpg'
 
-url = 'https://m.baidu.com/sf/vsearch?pd=image_content&word=美女&tn=vsearch&atn=page'
+url = 'https://m.baidu.com/sf/vsearch?pd=image_content&word=%E7%BE%8E%E5%A5%B3&tn=vsearch&atn=page'
 ua = {
     'Host': 'imgstat.baidu.com',
     'Referer': 'https://image.baidu.com/',

@@ -1,6 +1,6 @@
 
-# Created by https://www.toptal.com/developers/gitignore/api/macos,python,pycharm
-# Edit at https://www.toptal.com/developers/gitignore?templates=macos,python,pycharm
+# Created by https://www.toptal.com/developers/gitignore/api/python,macos,pycharm,venv
+# Edit at https://www.toptal.com/developers/gitignore?templates=python,macos,pycharm,venv
 
 ### macOS ###
 # General
@@ -10,10 +10,9 @@
 
 # Icon must end with two \r
 Icon
-image/
-result/
-**/image
-**/result
+image
+result
+
 
 # Thumbnails
 ._*
@@ -284,6 +283,18 @@ Thumbs.db #thumbnail cache on Windows
 .prof
 
 
-# End of https://www.toptal.com/developers/gitignore/api/macos,python,pycharm
+### venv ###
+# Virtualenv
+# http://iamzed.com/2009/05/07/a-primer-on-virtualenv/
+[Bb]in
+[Ii]nclude
+[Ll]ib
+[Ll]ib64
+[Ll]ocal
+[Ss]cripts
+pyvenv.cfg
+.venv
+pip-selfcheck.json
 
+# End of https://www.toptal.com/developers/gitignore/api/python,macos,pycharm,venv
 
